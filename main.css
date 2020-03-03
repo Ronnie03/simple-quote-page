@@ -80,3 +80,45 @@ p{
 	margin: auto;
 	margin-top: 2rem;
 }
+
+@media (min-width 600px){
+	h1{
+		color:red;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
