@@ -49,6 +49,22 @@ table {
     border-spacing: 0;
 }
 
+/*===========Body style===================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{
 	background-image: url(assets/freedom.jpg);
 	background-attachment: fixed;
@@ -81,15 +97,23 @@ p{
 	margin-top: 2rem;
 }
 
-@media (min-width 600px){
-	h1{
-		color:red;
+
+
+@media (max-width:600px){
+	body{
+	  
+		
+	}
+	.wrapper h1{
+		display: block;
+		width: 100vw;
+		font-size: 1rem;
+		letter-spacing: normal;
+		line-height: normal;
+		text-align: center;
 	}
 }
-
-
-
-
+	
 
 
 
