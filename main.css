@@ -51,22 +51,11 @@ table {
 
 /*===========Body style===================*/
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width:2000px){
 
 
 body{
-	background-image: url(assets/freedom.jpg);
+	background-image: url('assets/freedom.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -91,31 +80,74 @@ p{
 
 .wrapper{
 	display: block;
-  width:50rem;
-	padding: 6rem;
-	margin: auto;
-	margin-top: 2rem;
+  width:70%;
+	padding: 15%;
 }
+}
+/*=============Media style=====================*/
 
-
-
-@media (max-width:600px){
-	body{
-	  
-		
-	}
+@media (max-width:971px){
 	.wrapper h1{
-		display: block;
-		width: 100vw;
-		font-size: 1rem;
-		letter-spacing: normal;
-		line-height: normal;
-		text-align: center;
+		color:red;
 	}
-}
 	
 
 
+body{
+		width: 100%;
+		}
+	
+	.wrapper{
+		width: 70%;
+		padding: 15%;
+		margin:1rem auto;
+	}
+	
+	
+	.wrapper h1{
+		display: block;
+		font-size: 2rem;
+		letter-spacing: .3rem;
+		line-height: normal;
+	}
+
+	
+.wrapper p{
+	font-weight:600;
+}
+
+}
+
+
+
+/*=============Media style=====================*/
+
+@media (max-width:600px){
+	body{
+		width: 100%;
+		}
+	
+	.wrapper{
+		width: 70%;
+		padding: 5.0rem;
+		margin:7rem .5rem;
+	}
+	
+	
+	.wrapper h1{
+		color:blue;
+		display: block;
+		font-size: 1rem;
+		letter-spacing: normal;
+		line-height: normal;
+	}
+
+	
+.wrapper p{
+	font-weight:normal;
+}
+
+}
 
 
 
