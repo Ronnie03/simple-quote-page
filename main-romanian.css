@@ -1,0 +1,188 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*===========Body style===================*/
+
+@media (max-width:2000px){
+
+
+body{
+	background-image: url('assets/freedom.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	width:100%;
+	height:100%;
+}
+
+h1{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size:2.5rem;
+	line-height: 3.7rem;
+	letter-spacing: 0.2rem;
+}
+ 
+p{
+	font-family: 'Crimson Text', serif;
+	font-size:smaller;
+	margin-top: 10px;
+	font-weight: 600;
+}
+
+.wrapper{
+	display: block;
+  width:70%;
+	padding: 15%;
+}
+}
+/*=============Media style=====================*/
+
+@media (max-width:971px){
+	.wrapper h1{
+		color:red;
+	}
+	
+
+
+body{
+		width: 100%;
+		}
+	
+	.wrapper{
+		width: 70%;
+		padding: 15%;
+		margin:1rem auto;
+	}
+	
+	
+	.wrapper h1{
+		display: block;
+		font-size: 2rem;
+		letter-spacing: .3rem;
+		line-height: normal;
+	}
+
+	
+.wrapper p{
+	font-weight:600;
+}
+
+}
+
+
+
+/*=============Media style=====================*/
+
+@media (max-width:600px){
+	body{
+		width: 100%;
+		}
+	
+	.wrapper{
+		width: 70%;
+		padding: 5.0rem;
+		margin:7rem .5rem;
+	}
+	
+	
+	.wrapper h1{
+		color:blue;
+		display: block;
+		font-size: 1rem;
+		letter-spacing: normal;
+		line-height: normal;
+	}
+
+	
+.wrapper p{
+	font-weight:normal;
+}
+
+}
+
+/*============navbar style===============*/
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.menu a{
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: .5rem;
+	margin: .5rem
+}
+
+#english{
+	background-image: url(assets/1200px-Flag_of_the_United_Kingdom.svg.png);
+  background-size: cover;
+}
+
+#hungarian{
+	background-image:url(assets/hungarian-flag.png);
+	background-size: cover;
+}
+
+.footer{
+	position: fixed;
+	width:100%;
+	height: 5vh;
+	display: table;
+	bottom: 0;
+	
+	
+}
+
+footer{
+	display: table-cell;
+}
